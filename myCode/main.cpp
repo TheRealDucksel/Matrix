@@ -6,9 +6,9 @@
 using namespace std;
 int main (void)
 {
-	CMatrix m1(4,3);		//Create Object m1.A 4x3 Matrix
+	CMatrix m1(4,3);		//Create Object m1. 	A 4x3 Matrix
 	m1.print(m1);			//Print m1
-	m1.setElemntAt(1,1,1);	//entering values to the Matrix
+	m1.setElemntAt(1,1,1);		//entering values to the Matrix
 	m1.setElemntAt(1,2,2);
 	m1.setElemntAt(1,3,-1);
 	m1.setElemntAt(2,1,-2);
